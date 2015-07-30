@@ -2,7 +2,7 @@
 
 function JsPing(clb) {
 
-    this.success = function () {
+    window.JsPingSuccess = function () {
         clb();
     };
 

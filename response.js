@@ -1,3 +1,3 @@
-if (typeof JsPing === 'function') {
-    JsPing.success();
+if (typeof JsPingSuccess === 'function') {
+    JsPingSuccess();
 }
