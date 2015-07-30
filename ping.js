@@ -22,7 +22,7 @@ function JsPing(clb) {
     this.ping = function () {
        
         var script = document.createElement('script');
-        script.src = 'http://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js?d=' + getRandomInt(1, 99999);
+        script.src = 'http://rawgit.com/tpoxa/jsping/master/response.js?d=' + getRandomInt(1, 99999);
         script.onerror = doNotConnectFunction;
         document.body.appendChild(script);
 
